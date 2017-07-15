@@ -1,0 +1,67 @@
+* {
+	font-family:'Sofia';
+	font-size: 20px;
+	color: #ab4621;
+}
+.navbar-default {
+    background-color: #ab4621;
+    border-color: #ab4621;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color:#008000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #008000;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #008000;
+}
+
+input[type=text] {
+    width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 150px;
+    border:  2px solid #636f54;
+    border-radius: 5px;
+    height:300px;
+
+}
+.img {
+    padding-top: 10px;
+}
+
+.wrapper {
+    width:400px;
+    margin:10px;
+    border-radius: 10px;
+    border: 2px solid #008000;
+    float:left;
+    box-shadow: 2px 2px 2px #ccc;
+
+}
+.head {
+    background-color: #008000;
+}
